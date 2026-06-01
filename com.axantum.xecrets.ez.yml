@@ -10,7 +10,11 @@ finish-args:
   - --share=ipc
   - --share=network
   - --socket=x11
-  - --filesystem=host
+  - --filesystem=home
+  - --filesystem=/tmp
+  - --filesystem=/mnt
+  - --filesystem=/media
+  - --filesystem=/run/media
   - --socket=pcsc
   - --device=dri
 
